@@ -1,0 +1,18 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.153.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  threadpool.c
+C:\Users\kokomiQU\source\repos\ConsoleApplication1\ConsoleApplication1\threadpool.c(51,72): warning : conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\kokomiQU\source\repos\ConsoleApplication1\ConsoleApplication1\threadpool.c(51,72): warning :    51 |                 pool->threadIDs = (pthread_t*)malloc(sizeof(pthread_t) * max);
+C:\Users\kokomiQU\source\repos\ConsoleApplication1\ConsoleApplication1\threadpool.c(51,72): warning :       |                                                                        ^
+C:\Users\kokomiQU\source\repos\ConsoleApplication1\ConsoleApplication1\threadpool.c(56,62): warning : conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\kokomiQU\source\repos\ConsoleApplication1\ConsoleApplication1\threadpool.c(56,62): warning :    56 |                 memset(pool->threadIDs, 0, sizeof(pthread_t) * max);
+C:\Users\kokomiQU\source\repos\ConsoleApplication1\ConsoleApplication1\threadpool.c(56,62): warning :       |                                                              ^
+C:\Users\kokomiQU\source\repos\ConsoleApplication1\ConsoleApplication1\threadpool.c(72,58): warning : conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\kokomiQU\source\repos\ConsoleApplication1\ConsoleApplication1\threadpool.c(72,58): warning :    72 |                 pool->taskQ = (Task*)malloc(sizeof(Task) * queueSize);
+C:\Users\kokomiQU\source\repos\ConsoleApplication1\ConsoleApplication1\threadpool.c(72,58): warning :       |                                                          ^
+  正在链接对象
+  ConsoleApplication1.vcxproj -> C:\Users\kokomiQU\source\repos\ConsoleApplication1\ConsoleApplication1\bin\x64\Debug\ConsoleApplication1.out
